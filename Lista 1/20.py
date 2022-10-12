@@ -1,0 +1,5 @@
+print('Calcular a velocidade de um projétil')
+d = (float(input('Digite a distancia percorrida em km')))
+t = (float(input('Digite o tempo em minutos')))
+velocidade = (d * 1000)/(t*60)
+print(f'A velocidade do projétil é = {velocidade:.2f}m/s')

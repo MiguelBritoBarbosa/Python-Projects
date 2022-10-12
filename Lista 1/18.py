@@ -1,0 +1,15 @@
+print('Eleição. Digite as informações')
+a = (int(input('Quantos votos válidos teve o candidato A')))
+b = (int(input('Quantos votos válidos teve o candidato B')))
+c = (int(input('Quantos votos válidos teve o candidato C')))
+n = (int(input('Quantos votos nulos')))
+b = (int(input('Quantos votos em branco')))
+total = a+b+c+n+b
+validos = a+b+c
+print(f'O número total de eleitores foi {total}')
+print(f'{(validos*100)/total:.2f}% dos votos foram válidos')
+print(f'O candidato A obteve {(a*100)/total}% dos votos')
+print(f'O candidato B obteve {(b*100)/total}% dos votos')
+print(f'O candidato C obteve {(c*100)/total}% dos votos')
+print(f'{(n*100)/total}% dos votos foram nulos')
+print(f'{(b*100)/total}% dos votos foram em branco')

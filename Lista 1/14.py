@@ -1,0 +1,5 @@
+print('Digite 3 valores para efetuar o quadrado da soma')
+a = (float(input('Digite o valor de "a"')))
+b = (float(input('Digite o valor de "b"')))
+c = (float(input('Digite o valor de "c"')))
+print(f'A soma dos quadrados é = {(a+b+c)**2}')

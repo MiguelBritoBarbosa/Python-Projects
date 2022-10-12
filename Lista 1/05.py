@@ -1,0 +1,6 @@
+print('Calcular prestação em atraso')
+x = (float(input('Digite o valor original da prestação')))
+y = (float(input('Digite o valor da taxa de atraso')))
+t = (int(input('digite quantos dias de atraso')))
+prest = x + (x * (y/100) * t)
+print(f'O valor atual da prestação é = {prest}')
